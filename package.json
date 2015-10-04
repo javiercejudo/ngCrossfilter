@@ -6,6 +6,7 @@
   "main": "dist/ng-crossfilter.js",
   "scripts": {
     "test": "grunt test",
+    "version": "grunt build && git add -A dist releases",
     "start": "node server/default.js"
   },
   "repository": {
@@ -23,7 +24,7 @@
     "grunt-cli": "^0.1.13",
     "grunt-contrib-compress": "^0.9.1",
     "grunt-contrib-copy": "^0.5.0",
-    "grunt-contrib-jasmine": "^0.6.4",
+    "grunt-contrib-jasmine": "^0.9.2",
     "grunt-contrib-jshint": "^0.7.2",
     "grunt-contrib-uglify": "^0.2.7",
     "grunt-jsbeautifier": "^0.2.7",
